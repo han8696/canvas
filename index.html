@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<body>
+		<div class="box">
+			 <div class="left">
+		    	<canvas class="imgl" width="100" height="100"></canvas>
+		    	<div id="bai">
+			          白棋
+		        </div>
+		        <canvas class="imgr" width="100" height="100"></canvas>
+		    	<div id="hei">
+					黑棋
+				</div>
+				<div id="threebox">
+					<div class="ff top">
+						 重新开始
+					</div>
+					<div class="ff">
+					    选择模式
+					    <div id="modelbox">
+					    	<div class="active">
+					    	人人对战
+						    </div>
+						    <div >
+						    	人机对战
+						    </div>
+					    </div>
+					</div>
+				</div>
+		    </div>	
+		    <div id="center">
+		    	<canvas id="canvas" width="600" height="600"></canvas>
+		        <audio src="棋子音效a.mp3" id="audio" ></audio>
+		        <div id="xiazai">
+		        	<div id="cha">+</div>
+		        </div>
+		    </div>
+		    <div class="right">
+		    	<div id="name">
+		    	</div>
+				<div id="start">
+					<div id="begin">开始</div>
+					<div id="over">结束</div>
+				</div>
+				<div id="jieshao" class="same">
+					游戏介绍
+					<div id="content">
+						坊间传言，五子棋乃是民间最受欢迎，老少皆宜，
+						五子相连便可获胜。此游戏极易上手，
+						趣味横生，引人入胜；不仅能增强思维能力，
+						提高智力，而且富含哲理，有助于修身养性。
+					</div>
+				</div>
+				<div id="shezhi" class="same">
+					功能设置
+					<div id="items">
+						<div class="lists" id="qie">
+							背景切换
+						</div>
+					</div>
+				</div>
+				<div class="same" id="checkmunal">查看棋谱</div>
+				<div class="same" id="tuichu">退出游戏</div>
+				<div id="share">
+					<div class="fenxiang">分享到:</div>
+					<div>&#xe637;</div>
+					<div>&#xe655;</div>
+					<div>&#xe661;</div>
+					<div>&#xe609;</div>
+				</div>
+		    </div>
+		</div>
+		<div id="zhao">
+			 <div id="yiyan">
+			 	
+			 </div>
+		</div>
+		<div id="success">
+			
+		</div>
+	</body>
+</html>
